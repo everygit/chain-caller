@@ -1,0 +1,22 @@
+{
+  "name": "chain-caller",
+  "version": "1.0.0",
+  "description": "Used to create objects similar to colors, which can be chained to call methods, and finally process parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everygit/chain-caller.git"
+  },
+  "keywords": [
+    "chain-caller"
+  ],
+  "author": "austin.sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/everygit/chain-caller/issues"
+  },
+  "homepage": "https://github.com/everygit/chain-caller#readme"
+}
