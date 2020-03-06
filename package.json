@@ -1,6 +1,6 @@
 {
   "name": "chain-caller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to create objects similar to colors, which can be chained to call methods, and finally process parameters",
   "main": "index.js",
   "scripts": {
