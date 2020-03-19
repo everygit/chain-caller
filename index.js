@@ -16,9 +16,13 @@ export default function (list, callback) {
         var handle = function handle() {
             return callback.apply(handle, arguments);
         };
-        handle.chain = (list || []).concat(key);
+        if(key) {
+            handle.chain = (list || []).concat(key);
+        } else {
+            handle.chain = list || [];
+        }
         handle.__proto__ = Object.defineProperties(function _chainCaller() { }, gets);
         return handle;
     }
-    return Object.defineProperties({}, gets)
+    return Object.defineProperties(createHandle(), gets)
 };
